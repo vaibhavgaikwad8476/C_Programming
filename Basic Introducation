@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+  
+    printf("My name: Gaikwad Vaibhav Babasaheb. \n Collage Name: Parikrama Collage Of Engineering Kashti, Ahamadhnagar\n ");
+    printf(" I am Live in Karjat.");
+    
+
+    return 0;
+}
