@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    float hight,width, area;
+    
+    printf("Enter Hight= ");
+    scanf("%f",&hight);
+    
+    printf("Enter widtht= ");
+    scanf("%F",&width);
+    
+    area = 0.5*hight*width;
+    
+    printf("Area: %f", area);
+       
+    
+
+    return 0;
+}
