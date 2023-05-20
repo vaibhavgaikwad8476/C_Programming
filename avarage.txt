@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    float marathi, hindi, english, science, history,total, avg;
+    printf("enter marathi marks: ");
+    scanf("%f", &marathi);
+    
+    printf("enter hindi marks: ");
+    scanf("%f", &hindi);
+    
+     printf("enter english marks: ");
+    scanf("%f", &english);
+    
+      printf("enter science marks: ");
+    scanf("%f", &science);
+    
+      printf("enter history marks: ");
+    scanf("%f", &history);
+    
+    total = marathi+hindi+english+science+history;
+    printf("total: %f" ,total);
+    
+    avg=total/5;
+    printf(" \n avg: %f",avg);
+    
+    
+}
