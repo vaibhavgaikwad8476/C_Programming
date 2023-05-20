@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float radius, pai=3.14, area;
+    
+    printf("enter radius: ");
+    scanf("%f", &radius);
+    
+    area=pai*radius*radius;
+    printf("area: %f",area);
+    
+  return 0;
+}
