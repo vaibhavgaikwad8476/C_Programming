@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+//radius
+float r, area, circuference;
+printf("enter the radius: ");
+scanf("%f",&r);
+area=3.14*r*r;
+printf("area: %f",area);
+
+circuference=2* 3.14* r;
+printf("circuference: %f",circumference);
+
+
+    return 0;
+}
